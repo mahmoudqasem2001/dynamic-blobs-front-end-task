@@ -39,6 +39,48 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
+# Project Overview
+
+## Description
+This project is a React.js application that generates animated blobs on the screen. Each blob is draggable, and collisions between blobs are handled dynamically. The project utilizes styled-components for styling and lodash for utility functions.
+
+## Project Structure
+The project structure is organized as follows:
+- **src/**
+  - **components/**: Contains React components for Blob and HomePage.
+  - **App.tsx**: Main component responsible for rendering the HomePage.
+  - **index.tsx**: Entry point of the application.
+  - **styles.ts**: Contains global styles for the application.
+
+## Setup
+To run the project locally, follow these steps:
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Start the development server using `npm start`.
+
+## Features
+- Generates animated blobs with random sizes, colors, and positions.
+- Allows users to drag blobs across the screen.
+- Handles collisions between blobs dynamically.
+- Utilizes animations for enhanced visual effects.
+
+## Dependencies
+- React.js: JavaScript library for building user interfaces.
+- styled-components: CSS-in-JS library for styling React components.
+- lodash: JavaScript utility library for common functions.
+
+## Performance Optimization
+- Ensured useEffect hooks have appropriate dependency arrays to prevent unnecessary re-renders.
+- Followed best practices to optimize performance and improve user experience.
+
+## Testing
+- Tested the application for functionality and responsiveness across different devices and screen sizes.
+
+## Deployment
+- Deployed the application to a hosting platform such as Netlify or Vercel for public access.
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
